@@ -2,14 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="2dp"
-    android:paddingLeft="2dp"
-    android:paddingTop="2dp"
-    tools:context=".MainActivity$ForecastFragment">
+    tools:context="bubal.tweather.ForecastFragment">
 
     <ListView
-        android:id="@+id/listView_forecast"
+        android:id="@+id/listview_forecast"
+        style="@style/ForecastListStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="match_parent"
+        android:divider="@null" />
 </FrameLayout>
