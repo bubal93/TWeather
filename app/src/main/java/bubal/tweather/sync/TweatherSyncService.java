@@ -12,7 +12,7 @@ public class TweatherSyncService extends Service{
 
     @Override
     public void onCreate() {
-        Log.d("SunshineSyncService", "onCreate - SunshineSyncService");
+        Log.d("TweatherSyncService", "onCreate - TweatherSyncService");
         synchronized (sSyncAdapterLock) {
             if (sTweatherSyncAdapter == null) {
                 sTweatherSyncAdapter = new TweatherSyncAdapter(getApplicationContext(), true);
