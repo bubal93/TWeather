@@ -21,6 +21,9 @@
         android:name="bubal.tweather.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
+    <!-- Permissions required to use the Place Picker -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -113,7 +116,7 @@
         </service>
         <service
             android:name=".gcm.RegistrationIntentService"
-            android:exported="false"/>
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
