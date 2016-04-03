@@ -69,10 +69,10 @@ public class MyGcmListenerService extends GcmListenerService {
         // Notifications using both a large and a small icon need the large
         // icon as a bitmap. So we need to create that here from the resource ID, and pass the
         // object along in our notification builder.
-        Bitmap largeIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.art_storm);
+        Bitmap largeIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.ic_art_storm);
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
-                        .setSmallIcon(R.drawable.art_clear)
+                        .setSmallIcon(R.drawable.ic_art_clear)
                         .setLargeIcon(largeIcon)
                         .setContentTitle("Weather Alert!")
                         .setStyle(new NotificationCompat.BigTextStyle().bigText(message))
