@@ -18,6 +18,7 @@ import android.view.View;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
+import bubal.tweather.data.WeatherContract;
 import bubal.tweather.gcm.RegistrationIntentService;
 import bubal.tweather.sync.TweatherSyncAdapter;
 
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
 
         mLocation = Utility.getPreferredLocation(this);
         setContentView(LAYOUT);
+        Uri contentUri = getIntent() != null ? getIntent().getData() : null;
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -54,8 +56,16 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
             // adding or replacing the detail fragment using a
             // fragment transaction.
             if (savedInstanceState == null) {
+
+                DetailFragment fragment = new DetailFragment();
+                if (contentUri != null) {
+                    Bundle args = new Bundle();
+                    args.putParcelable(DetailFragment.DETAIL_URI, contentUri);
+                    fragment.setArguments(args);
+                }
+
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.weather_detail_container, new DetailFragment(), DETAILFRAGMENT_TAG)
+                        .replace(R.id.weather_detail_container, fragment, DETAILFRAGMENT_TAG)
                         .commit();
             }
         } else {
@@ -67,6 +77,11 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
                 .findFragmentById(R.id.fragment_forecast));
 
         forecastFragment.setUseTodayLayout(!mTwoPane);
+
+        if (contentUri != null) {
+            forecastFragment.setInitialSelectedDate(
+                    WeatherContract.WeatherEntry.getDateFromUri(contentUri));
+        }
 
         TweatherSyncAdapter.initializeSyncAdapter(this);
 
