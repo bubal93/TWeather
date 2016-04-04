@@ -9,10 +9,9 @@
     <string name="action_share">Share</string>
     <string name="action_credist">Credits</string>
 
-    <string name="credits_description">Version 1.0. \n \u00A9 Alexander Bublik, 2016</string>
+    <string name="credits_description" translatable="false">Version 1.0. \n \u00A9 Alexander Bublik, 2016</string>
 
     <!-- Menu label to fetch updated weather info from the server -->
-    <string name="action_refresh" translatable="false">Refresh</string>
     <string name="title_activity_detail">Details</string>
     <string name="title_activity_settings">Settings</string>
 
@@ -30,7 +29,7 @@
     <string name="pref_location_longitude" translatable="false">loc-longitude</string>
 
     <!-- Default city for location preference [CHAR LIMIT=NONE] -->
-    <string name="pref_location_default" translatable="false">Prague</string>
+    <string name="pref_location_default">Prague</string>
 
     <!-- Content description for the get current location button in the location preference -->
     <string name="pref_current_location_desc">Use my location</string>
@@ -71,19 +70,19 @@
     <string name="pref_art_pack_label">Icon Pack</string>
 
     <!-- Label for TWeather option in art pack preference [CHAR LIMIT=25] -->
-    <string name="pref_art_pack_label_tweather">TWeather</string>
+    <string name="pref_art_pack_label_tweather" translatable="false">TWeather</string>
 
     <!-- Label for Sunny option in art pack preference [CHAR LIMIT=25] -->
-    <string name="pref_art_pack_label_sunny">Sunny</string>
+    <string name="pref_art_pack_label_sunny" translatable="false">Sunny</string>
 
     <!-- Label for Plain option in art pack preference [CHAR LIMIT=25] -->
-    <string name="pref_art_pack_label_plain">Plain</string>
+    <string name="pref_art_pack_label_plain" translatable="false">Plain</string>
 
     <!-- Label for DarkFlat option in art pack preference [CHAR LIMIT=25] -->
-    <string name="pref_art_pack_label_dark_flat">DarkFlat</string>
+    <string name="pref_art_pack_label_dark_flat" translatable="false">DarkFlat</string>
 
     <!-- Label for Beautiful Icons option in art pack preference [CHAR LIMIT=25] -->
-    <string name="pref_art_pack_label_beautiful_icons">Beautiful Icons</string>
+    <string name="pref_art_pack_label_beautiful_icons" translatable="false">Beautiful Icons</string>
 
     <!-- Key name for art pack unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
     <string name="pref_art_pack_key" translatable="false">art_pack</string>
@@ -110,11 +109,11 @@
     <string name="tomorrow">Tomorrow</string>
 
     <!-- Date format [CHAR LIMIT=NONE] -->
-    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
+    <string name="format_full_friendly_date" translatable="false"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
 
     <!-- Strings for formatting weather-related data -->
     <!-- Temperature format [CHAR LIMIT=5 -->
-    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+    <string name="format_temperature" translatable="false"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
 
     <string name="wind">Wind</string>
     <!-- Windspeed formats -->
@@ -129,17 +128,17 @@
 
     <string name="humidity">Humidity</string>
     <!-- Humidity format CHAR LIMIT=25]-->
-    <string name="format_humidity"><xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+    <string name="format_humidity" translatable="false"><xliff:g id="humidity">%1.0f</xliff:g> %%</string>
 
     <!-- SyncAdapter related -->
-    <string name="sync_account_type">bubal.tweather</string>
-    <string name="content_authority">bubal.tweather</string>
+    <string name="sync_account_type" translatable="false">bubal.tweather</string>
+    <string name="content_authority" translatable="false">bubal.tweather</string>
 
     <!-- Notification Format -->
     <string name="format_notification">Forecast: <xliff:g id="condition">%1$s</xliff:g> High: <xliff:g id="high">%2$s</xliff:g> Low: <xliff:g id="low">%3$s</xliff:g></string>
 
     <!-- Strings related to Notification preference -->
-    <string name="pref_last_notification">last_notification</string>
+    <string name="pref_last_notification" translatable="false">last_notification</string>
 
     <!-- Strings related to Widgets -->
     <string name="title_widget_today">TWeather Today</string>
@@ -226,7 +225,7 @@
     <string name="condition_961">Violent Storm</string>
     <string name="condition_962">Hurricane</string>
 
-    <string name="condition_unknown">Unknown (<xliff:g id="low">%1$s</xliff:g>)</string>
+    <string name="condition_unknown" translatable="false">Unknown (<xliff:g id="low">%1$s</xliff:g>)</string>
 
     <!-- For Shared Element Transitions -->
     <string name="detail_icon_transition_name" translatable="false">TN_DetailIcon</string>
@@ -235,6 +234,6 @@
     <string name="gcm_weather_alert">Heads up: %1$s in %2$s!</string>
 
     <!-- For Google Places API Attributions -->
-    <string name="attribution_text">Powered by Google</string>
+    <string name="attribution_text" translatable="false">Powered by Google</string>
 
 </resources>

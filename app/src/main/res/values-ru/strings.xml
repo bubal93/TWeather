@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">TWeather</string>
+    <string name="action_credist">О приложении</string>
+    <string name="action_map">На карте</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_share">Поделиться</string>
+    <string name="attribution_text"></string>
+    <string name="condition_2xx">Гроза</string>
+    <string name="condition_3xx">Изморось</string>
+    <string name="condition_500">Легкий дождь</string>
+    <string name="condition_501">Дождь</string>
+    <string name="condition_502">Сильный дождь</string>
+    <string name="condition_503">Проливной дождь</string>
+    <string name="condition_504">Сильный ливень</string>
+    <string name="condition_511">Холодный дождь</string>
+    <string name="condition_520">Легкий дождь</string>
+    <string name="condition_521">Дождь</string>
+    <string name="condition_522">Сильный дождь</string>
+    <string name="condition_531">Ливень</string>
+    <string name="condition_600">Легкий снегопад</string>
+    <string name="condition_601">Снегопад</string>
+    <string name="condition_602">Сильный снегопад</string>
+    <string name="condition_611">Дождь со снегом</string>
+    <string name="condition_612">Ливень со снегом</string>
+    <string name="condition_615">Дождь со снегом</string>
+    <string name="condition_616">Дождь со снегом</string>
+    <string name="condition_620">Снегопад</string>
+    <string name="condition_621">Снегопад</string>
+    <string name="condition_622">Снагопад</string>
+    <string name="condition_701">Туман</string>
+    <string name="condition_711">Туманно</string>
+    <string name="condition_721">Туманно</string>
+    <string name="condition_731">Песчаная буря</string>
+    <string name="condition_741">Туманно</string>
+    <string name="condition_751">Песчаная буря</string>
+    <string name="condition_761">Буря</string>
+    <string name="condition_762">Вулканический пепел</string>
+    <string name="condition_771">Шквал</string>
+    <string name="condition_781">Торнадо</string>
+    <string name="condition_800">Ясно</string>
+    <string name="condition_801">Слегка облачно</string>
+    <string name="condition_802">Облачно</string>
+    <string name="condition_803">Пасмурно</string>
+    <string name="condition_804">Пасмурно</string>
+    <string name="condition_900">Торнадо</string>
+    <string name="condition_901">Тропическая буря</string>
+    <string name="condition_902">Ураган</string>
+    <string name="condition_903">Холодно</string>
+    <string name="condition_904">Жара</string>
+    <string name="condition_905">Ветренно</string>
+    <string name="condition_906">Град</string>
+    <string name="condition_951">Спокойно</string>
+    <string name="condition_952">Слабый ветер</string>
+    <string name="condition_953">Легкий ветер</string>
+    <string name="condition_954">Ветер</string>
+    <string name="condition_955">Свежий ветер</string>
+    <string name="condition_956">Сильный ветер</string>
+    <string name="condition_957">Очень сильный ветер</string>
+    <string name="condition_958">Шторм</string>
+    <string name="condition_959">Сильный шторм</string>
+    <string name="condition_960">Гроза</string>
+    <string name="condition_961">Сильная гроза</string>
+    <string name="condition_962">Ураган</string>
+    <string name="empty_forecast_list">Информация о погоде недоступна.</string>
+    <string name="empty_forecast_list_invalid_location">Информация о погоде недоступна, некорректное местоположение.</string>
+    <string name="empty_forecast_list_no_network">Информация о погоде недоступна, проверьте подключение к Интернету.</string>
+    <string name="empty_forecast_list_server_down">Информация о погоде недоступна, проблемы с сервером.</string>
+    <string name="empty_forecast_list_server_error">Информация о погоде недоступна, проблемы с сервером, проверьте наличие обновлений.</string>
+    <string name="gcm_weather_alert">Внимание: %1$s в %2$s!</string>
+    <string name="humidity">Влажность</string>
+    <string name="muzei_description">Сегодняшняя погода</string>
+    <string name="pref_current_location_desc">Мое местоположение</string>
+    <string name="pref_enable_notifications_false">Выключены</string>
+    <string name="pref_enable_notifications_label">Уведомления о погоде</string>
+    <string name="pref_enable_notifications_true">Включены</string>
+    <string name="pref_location_default">Прага</string>
+    <string name="pref_location_error_description">Некорректное местоположение (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_location_label">Местоположение</string>
+    <string name="pref_location_unknown_description">Проверяем местоположение… (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_units_label">Система мер</string>
+    <string name="pref_units_label_imperial">Британская</string>
+    <string name="pref_units_label_metric">Метрическая</string>
+    <string name="pressure">Давление</string>
+    <string name="title_activity_detail">Подробности</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="title_widget_detail">TWeather подробно</string>
+    <string name="title_widget_today">TWeather сегодня</string>
+    <string name="today">сегодня</string>
+    <string name="tomorrow">завтра</string>
+    <string name="wind">Скорость ветра</string>
+    <string name="a11y_forecast">Прогноз: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Значок прогноза: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">Днем <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Влажность <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">Ночью <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Атмосферное давление <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind">Скорость и направление ветра <xliff:g id="wind">%1$s</xliff:g></string>
+    <string name="format_notification">Прогноз: <xliff:g id="condition">%1$s</xliff:g> Днем: <xliff:g id="high">%2$s</xliff:g> Ночью: <xliff:g id="low">%3$s</xliff:g></string>
+    <string name="format_pressure"><xliff:g id="pressure">%1.0f</xliff:g> гПа</string>
+    <string name="format_wind_kmh"><xliff:g id="speed">%1$1.0f</xliff:g> км/ч <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_mph"><xliff:g id="speed">%1$1.0f</xliff:g> миль/ч <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="pref_location_status_key" translatable="false"></string>
+    <string name="pref_art_pack_label">Наборы иконок</string>
+</resources>

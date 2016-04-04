@@ -7,9 +7,7 @@ import android.net.NetworkInfo;
 import android.preference.PreferenceManager;
 import android.text.format.Time;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Locale;
 
 import bubal.tweather.sync.TweatherSyncAdapter;
@@ -66,11 +64,6 @@ public class Utility {
         return String.format(context.getString(R.string.format_temperature), temperature);
     }
 
-    static String formatDate(long dateInMilliseconds) {
-        Date date = new Date(dateInMilliseconds);
-        return DateFormat.getDateInstance().format(date);
-    }
-
     // Format used for storing dates in the database.  ALso used for converting those strings
     // back into date objects for comparison/processing.
     public static final String DATE_FORMAT = "yyyyMMdd";
@@ -85,10 +78,10 @@ public class Utility {
      */
     public static String getFriendlyDayString(Context context, long dateInMillis, boolean displayLongToday) {
         // The day string for forecast uses the following logic:
-        // For today: "Today, June 8"
+        // For today: "Today, 8 June"
         // For tomorrow:  "Tomorrow"
         // For the next 5 days: "Wednesday" (just the day name)
-        // For all days after that: "Mon Jun 8"
+        // For all days after that: "Mon 8 Jun"
 
         Time time = new Time();
         time.setToNow();
@@ -112,7 +105,7 @@ public class Utility {
 
         } else {
             // Otherwise, use the form "Mon Jun 3"
-            SimpleDateFormat shortenedDateFormat = new SimpleDateFormat("EEE MMM dd");
+            SimpleDateFormat shortenedDateFormat = new SimpleDateFormat("EEE dd MMM");
             return shortenedDateFormat.format(dateInMillis);
         }
     }
@@ -177,7 +170,7 @@ public class Utility {
         Time time = new Time();
         time.setToNow();
         SimpleDateFormat dbDateFormat = new SimpleDateFormat(Utility.DATE_FORMAT);
-        SimpleDateFormat monthDayFormat = new SimpleDateFormat("MMMM dd");
+        SimpleDateFormat monthDayFormat = new SimpleDateFormat("dd MMMM");
         String monthDayString = monthDayFormat.format(dateInMillis);
         return monthDayString;
     }
