@@ -225,9 +225,9 @@ public class Utility {
         // http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
         if (weatherId >= 200 && weatherId <= 232) {
             return R.drawable.ic_storm;
-        } else if (weatherId >= 300 && weatherId <= 321) {
+        } else if (weatherId >= 300 && weatherId <= 321 || weatherId == 500) {
             return R.drawable.ic_light_rain;
-        } else if (weatherId >= 500 && weatherId <= 504) {
+        } else if (weatherId >= 501 && weatherId <= 504) {
             return R.drawable.ic_rain;
         } else if (weatherId == 511) {
             return R.drawable.ic_snow;
@@ -316,9 +316,9 @@ public class Utility {
         // http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
         if (weatherId >= 200 && weatherId <= 232) {
             return R.drawable.ic_art_storm;
-        } else if (weatherId >= 300 && weatherId <= 321) {
+        } else if (weatherId >= 300 && weatherId <= 321 || weatherId == 500) {
             return R.drawable.ic_art_light_rain;
-        } else if (weatherId >= 500 && weatherId <= 504) {
+        } else if (weatherId >= 501 && weatherId <= 504) {
             return R.drawable.ic_art_rain;
         } else if (weatherId == 511) {
             return R.drawable.ic_art_snow;
