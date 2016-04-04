@@ -113,7 +113,7 @@ public class SettingsActivity extends PreferenceActivity
                     preference.setSummary(getString(R.string.pref_location_error_description, value.toString()));
                     break;
                 default:
-                    // Note --- if the server is down we still assume the value
+                    // If the server is down we still assume the value
                     // is valid
                     preference.setSummary(stringValue);
             }
@@ -134,6 +134,7 @@ public class SettingsActivity extends PreferenceActivity
     // start our synchronization here
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+
         if (key.equals(getString(R.string.pref_location_key))) {
             // we've changed the location
             // Wipe out any potential PlacePicker latlng values so that we can use this text entry.
@@ -149,6 +150,7 @@ public class SettingsActivity extends PreferenceActivity
 
             Utility.resetLocationStatus(this);
             TweatherSyncAdapter.syncImmediately(this);
+
         } else if (key.equals(getString(R.string.pref_units_key))) {
             // units have changed. update lists of weather entries accordingly
             getContentResolver().notifyChange(WeatherContract.WeatherEntry.CONTENT_URI, null);

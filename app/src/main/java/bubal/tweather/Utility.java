@@ -280,9 +280,9 @@ public class Utility {
         // http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
         if (weatherId >= 200 && weatherId <= 232) {
             return String.format(Locale.US, formatArtUrl, "storm");
-        } else if (weatherId >= 300 && weatherId <= 321) {
+        } else if (weatherId >= 300 && weatherId <= 321 || weatherId == 500) {
             return String.format(Locale.US, formatArtUrl, "light_rain");
-        } else if (weatherId >= 500 && weatherId <= 504) {
+        } else if (weatherId >= 501 && weatherId <= 504) {
             return String.format(Locale.US, formatArtUrl, "rain");
         } else if (weatherId == 511) {
             return String.format(Locale.US, formatArtUrl, "snow");

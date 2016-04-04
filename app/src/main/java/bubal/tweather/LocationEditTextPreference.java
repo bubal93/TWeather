@@ -85,6 +85,7 @@ public class LocationEditTextPreference extends EditTextPreference {
         super.showDialog(state);
 
         EditText et = getEditText();
+        et.getText().clear();
         et.addTextChangedListener(new TextWatcher() {
 
 

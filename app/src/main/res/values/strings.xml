@@ -70,8 +70,17 @@
     <!-- Label for TWeather option in art pack preference [CHAR LIMIT=25] -->
     <string name="pref_art_pack_label_tweather">TWeather</string>
 
-    <!-- Label for sunny option in art pack preference [CHAR LIMIT=25] -->
+    <!-- Label for Sunny option in art pack preference [CHAR LIMIT=25] -->
     <string name="pref_art_pack_label_sunny">Sunny</string>
+
+    <!-- Label for Plain option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_plain">Plain</string>
+
+    <!-- Label for DarkFlat option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_dark_flat">DarkFlat</string>
+
+    <!-- Label for Beautiful Icons option in art pack preference [CHAR LIMIT=25] -->
+    <string name="pref_art_pack_label_beautiful_icons">Beautiful Icons</string>
 
     <!-- Key name for art pack unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
     <string name="pref_art_pack_key" translatable="false">art_pack</string>
@@ -81,6 +90,15 @@
 
     <!-- Value in SharedPreferences for Sunny art pack  option [CHAR LIMIT=NONE] -->
     <string name="pref_art_pack_sunny" translatable="false">https://raw.githubusercontent.com/bubal93/TWeather/resources/IconPacks/Sunny/drawable-xxhdpi/ic_art_%s.png</string>
+
+    <!-- Value in SharedPreferences for Plain art pack  option [CHAR LIMIT=NONE] -->
+    <string name="pref_art_pack_plain" translatable="false">https://raw.githubusercontent.com/bubal93/TWeather/resources/IconPacks/Plain/drawable-xhdpi/ic_art_%s.png</string>
+
+    <!-- Value in SharedPreferences for DarkFlat art pack  option [CHAR LIMIT=NONE] -->
+    <string name="pref_art_pack_dark_flat" translatable="false">https://raw.githubusercontent.com/bubal93/TWeather/resources/IconPacks/DarkFlat/drawable-xhdpi/ic_art_%s.png</string>
+
+    <!-- Value in SharedPreferences for Beautiful Icons art pack  option [CHAR LIMIT=NONE] -->
+    <string name="pref_art_pack_beautiful_icons" translatable="false">https://raw.githubusercontent.com/bubal93/TWeather/resources/IconPacks/Beautiful-Icons/drawable-xhdpi/ic_art_%s.png</string>
 
     <!-- Language-specific constants -->
     <string name="today">Today</string>

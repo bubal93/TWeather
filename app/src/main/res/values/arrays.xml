@@ -13,14 +13,20 @@
 
     <!-- Names of the art packs available -->
     <string-array name="pref_art_pack_options">
-        <item>@string/pref_art_pack_label_tweather</item>
+        <item>@string/pref_art_pack_label_beautiful_icons</item>
+        <item>@string/pref_art_pack_label_dark_flat</item>
+        <item>@string/pref_art_pack_label_plain</item>
         <item>@string/pref_art_pack_label_sunny</item>
+        <item>@string/pref_art_pack_label_tweather</item>
     </string-array>
 
     <!-- Format for retrieving art from an external source [CHAR LIMIT=NONE] -->
     <string-array name="pref_art_pack_values">
-        <item>@string/pref_art_pack_tweather</item>
+        <item>@string/pref_art_pack_beautiful_icons</item>
+        <item>@string/pref_art_pack_dark_flat</item>
+        <item>@string/pref_art_pack_plain</item>
         <item>@string/pref_art_pack_sunny</item>
+        <item>@string/pref_art_pack_tweather</item>
     </string-array>
 
 </resources>
