@@ -101,7 +101,7 @@ public class TweatherSyncAdapter extends AbstractThreadedSyncAdapter {
     public void onPerformSync(Account account, Bundle extras, String authority,
                               ContentProviderClient provider, SyncResult syncResult) {
 
-        Log.d(LOG_TAG, "Starting sync");
+        //Log.d(LOG_TAG, "Starting sync");
 
         // We need not just the location String, but also potentially the latitude and
         // longitude, in case we are syncing based on a new Place Picker API result.
@@ -363,7 +363,7 @@ public class TweatherSyncAdapter extends AbstractThreadedSyncAdapter {
                 updateWidgets();
             }
 
-            Log.d(LOG_TAG, "Sync Complete. " + cVVector.size() + " Inserted");
+            //Log.d(LOG_TAG, "Sync Complete. " + cVVector.size() + " Inserted");
             setLocationStatus(getContext(), LOCATION_STATUS_OK);
 
         } catch (JSONException e) {

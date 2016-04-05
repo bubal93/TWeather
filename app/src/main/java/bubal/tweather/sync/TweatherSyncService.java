@@ -3,7 +3,6 @@ package bubal.tweather.sync;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
-import android.util.Log;
 
 public class TweatherSyncService extends Service{
 
@@ -12,7 +11,7 @@ public class TweatherSyncService extends Service{
 
     @Override
     public void onCreate() {
-        Log.d("TweatherSyncService", "onCreate - TweatherSyncService");
+        //Log.d("TweatherSyncService", "onCreate - TweatherSyncService");
         synchronized (sSyncAdapterLock) {
             if (sTweatherSyncAdapter == null) {
                 sTweatherSyncAdapter = new TweatherSyncAdapter(getApplicationContext(), true);
