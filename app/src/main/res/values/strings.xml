@@ -9,7 +9,7 @@
     <string name="action_share">Share</string>
     <string name="action_credist">Credits</string>
 
-    <string name="credits_description" translatable="false">Version 1.0. \n \u00A9 Alexander Bublik, 2016</string>
+    <string name="credits_description" translatable="false">Version 1.0. \n \u00A9 Alexander Bublik, 2016.</string>
 
     <!-- Menu label to fetch updated weather info from the server -->
     <string name="title_activity_detail">Details</string>

@@ -27,7 +27,7 @@
     <string name="condition_616">Дождь со снегом</string>
     <string name="condition_620">Снегопад</string>
     <string name="condition_621">Снегопад</string>
-    <string name="condition_622">Снагопад</string>
+    <string name="condition_622">Снегопад</string>
     <string name="condition_701">Туман</string>
     <string name="condition_711">Туманно</string>
     <string name="condition_721">Туманно</string>
@@ -40,8 +40,8 @@
     <string name="condition_781">Торнадо</string>
     <string name="condition_800">Ясно</string>
     <string name="condition_801">Слегка облачно</string>
-    <string name="condition_802">Облачно</string>
-    <string name="condition_803">Пасмурно</string>
+    <string name="condition_802">Рассеянные облака</string>
+    <string name="condition_803">Облачно</string>
     <string name="condition_804">Пасмурно</string>
     <string name="condition_900">Торнадо</string>
     <string name="condition_901">Тропическая буря</string>

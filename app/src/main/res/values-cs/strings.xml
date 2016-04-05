@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">TWeather</string>
+    <string name="condition_2xx">Bouřka </string>
+    <string name="condition_3xx">Mrholení</string>
+    <string name="condition_500">Slabý déšť</string>
+    <string name="condition_501">Déšť</string>
+    <string name="condition_502">Prudký déšť</string>
+    <string name="condition_503">Přívalový déšť</string>
+    <string name="condition_504">Průtrž mračen</string>
+    <string name="condition_511">Mrznoucí déšť</string>
+    <string name="condition_520">Slabé přeháňky</string>
+    <string name="condition_521">přeháňky</string>
+    <string name="condition_522">silné přeháňky</string>
+    <string name="condition_531">Přívalový déšť</string>
+    <string name="condition_600">Mírné sněžení</string>
+    <string name="condition_601">Sněžení</string>
+    <string name="condition_602">Husté sněžení</string>
+    <string name="condition_611">Sněžení s deštěm</string>
+    <string name="condition_615">Déšť se snehem</string>
+    <string name="condition_616">Déšť se snehem</string>
+    <string name="condition_612">Déšť se snehem</string>
+    <string name="condition_620">Sněžení</string>
+    <string name="condition_621">Sněžení</string>
+    <string name="condition_622">Sněžení</string>
+    <string name="condition_701">Mlha</string>
+    <string name="condition_711">Kouř</string>
+    <string name="condition_721">Opar</string>
+    <string name="condition_731">Prachové víry</string>
+    <string name="condition_741">Mlha</string>
+    <string name="condition_751">Písečné víry</string>
+    <string name="condition_761">Bouřka</string>
+    <string name="condition_762">Sopečný popel</string>
+    <string name="condition_771">Bouřka</string>
+    <string name="condition_781">Tornádo</string>
+    <string name="condition_800">Jasno</string>
+    <string name="condition_801">Skoro jasno</string>
+    <string name="condition_802">Polojasno</string>
+    <string name="condition_803">Oblačno</string>
+    <string name="condition_804">Zataženo</string>
+    <string name="condition_900">Tornádo</string>
+    <string name="condition_901">Tropická bouřka</string>
+    <string name="condition_902">Hurikán</string>
+    <string name="condition_903">Zima</string>
+    <string name="condition_904">Horko</string>
+    <string name="condition_905">Větrno</string>
+    <string name="condition_906">Krupobití</string>
+    <string name="condition_951">Calm</string>
+    <string name="condition_952">Light Breeze</string>
+    <string name="condition_953">Gentle Breeze</string>
+    <string name="condition_954">Breeze</string>
+    <string name="condition_955">Fresh Breeze</string>
+    <string name="condition_956">Strong Breeze</string>
+    <string name="condition_957">High Wind</string>
+    <string name="condition_958">Gale</string>
+    <string name="condition_959">Severe Gale</string>
+    <string name="condition_960">Storm</string>
+    <string name="condition_961">Violent Storm</string>
+    <string name="condition_962">Hurricane</string>
+    <string name="action_share">Podílet se </string>
+    <string name="action_settings">Nastavení</string>
+    <string name="action_map">Umístění na mapě</string>
+    <string name="action_credist">O aplikaci</string>
+    <string name="a11y_wind">Rychlost a směr větru: <xliff:g id="wind">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Atmosférický tlak: <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">V noci: <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Vlhkost: <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">Odpoledne: <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Ikona počasí: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast">Předpověď: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="empty_forecast_list">No Weather Information Available</string>
+    <string name="empty_forecast_list_invalid_location">No weather information available. The location in settings is not recognized by the weather server.</string>
+    <string name="empty_forecast_list_no_network">No weather information available. The network is not available to fetch weather data.</string>
+    <string name="empty_forecast_list_server_down">No weather information available. The server is not returning data.</string>
+    <string name="empty_forecast_list_server_error">No weather information available. The server is not returning valid data. Please check for an updated version of TWeather.</string>
+    <string name="format_notification">Předpověď: <xliff:g id="condition">%1$s</xliff:g> Odpoledne: <xliff:g id="high">%2$s</xliff:g> V noci: <xliff:g id="low">%3$s</xliff:g></string>
+    <string name="format_pressure"><xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+    <string name="format_wind_kmh"><xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_mph"><xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="gcm_weather_alert">Heads up: %1$s in %2$s!</string>
+    <string name="humidity">Vlhkost</string>
+    <string name="muzei_description">Dnešní počasí</string>
+    <string name="pref_art_pack_label">Icon Pack</string>
+    <string name="pref_current_location_desc">Používat moji polohu</string>
+    <string name="pref_enable_notifications_false">Not Enabled</string>
+    <string name="pref_enable_notifications_label">Ohlášení počasí</string>
+    <string name="pref_enable_notifications_true">Enabled</string>
+    <string name="pref_location_default">Praha</string>
+    <string name="pref_location_error_description">Invalid Location (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_location_label">Umístění</string>
+    <string name="pref_location_unknown_description">Validating Location… (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_units_label">Teplotní jednotky</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pressure">Tlak</string>
+    <string name="title_activity_detail">Podrobnosti</string>
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="title_widget_detail">TWeather nastavení</string>
+    <string name="title_widget_today">TWeather dnes</string>
+    <string name="today">dnes</string>
+    <string name="tomorrow">zítra</string>
+    <string name="wind">Vítr</string>
+</resources>
