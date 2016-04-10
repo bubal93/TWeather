@@ -67,9 +67,8 @@ A weather forecast app.
 - Widgets are made with AppWidgetProvider. Also, there is one dynamic widget - depending on it`s size it will change his own layout and show different information.
 
 
-<b>Screenshots.</b>
 
-- Phone:
+<b>Phone:</b>
 
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413333/2e9be380-ff77-11e5-8afd-bde42c0a18b7.png" width="288" height="406" />
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413330/2e981a98-ff77-11e5-8d62-f7edd5819d71.png" width="288" height="406" />
@@ -77,7 +76,7 @@ A weather forecast app.
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413331/2e9a66d6-ff77-11e5-9e92-f4b94cf13cd7.png" width="288" height="406" />
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413332/2e9b1982-ff77-11e5-9bd4-89eaf45d80e9.png" width="288" height="406" />
 
-- Tablet:
+<b>Tablet:</b>
 
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413338/3ad007e4-ff77-11e5-8065-5ffdc4aa1437.png" width="363" height="532" />
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413337/3acea93a-ff77-11e5-91e1-e10166cbca3a.png" width="363" height="532" />
