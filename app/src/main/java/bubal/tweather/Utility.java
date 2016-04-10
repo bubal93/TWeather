@@ -1,5 +1,6 @@
 package bubal.tweather;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
@@ -13,6 +14,63 @@ import java.util.Locale;
 import bubal.tweather.sync.TweatherSyncAdapter;
 
 public class Utility {
+
+    // For changing application theme
+    private static int sTheme;
+
+
+    public static final int THEME_ORANGE = 0;
+    public static final int THEME_RED = 1;
+    public static final int THEME_BLUE = 2;
+    public static final int THEME_INDIGO = 3;
+    public static final int THEME_CYAN = 4;
+    public static final int THEME_LIME = 5;
+    public static final int THEME_GREEN = 6;
+    public static final int THEME_PINK = 7;
+    public static final int THEME_PURPLE = 8;
+    public static final int THEME_GREY = 9;
+
+    public static void changeToTheme(int theme) {
+        sTheme = theme;
+    }
+
+    public static void onActivityCreateSetTheme(Activity activity) {
+        switch (sTheme) {
+            case THEME_ORANGE:
+                activity.setTheme(R.style.Orange);
+                break;
+            case THEME_RED:
+                activity.setTheme(R.style.Red);
+                break;
+            case THEME_BLUE:
+                activity.setTheme(R.style.Blue);
+                break;
+            case THEME_INDIGO:
+                activity.setTheme(R.style.Indigo);
+                break;
+            case THEME_CYAN:
+                activity.setTheme(R.style.Cyan);
+                break;
+            case THEME_LIME:
+                activity.setTheme(R.style.Lime);
+                break;
+            case THEME_GREEN:
+                activity.setTheme(R.style.Green);
+                break;
+            case THEME_PINK:
+                activity.setTheme(R.style.Pink);
+                break;
+            case THEME_PURPLE:
+                activity.setTheme(R.style.Purple);
+                break;
+            case THEME_GREY:
+                activity.setTheme(R.style.Grey);
+                break;
+            default:
+                break;
+        }
+    }
+
 
     // Set default latlong to 0.
     public static float DEFAULT_LATLONG = 0F;
@@ -55,7 +113,6 @@ public class Utility {
 
         // Data stored in Celsius by default.  If user prefers to see in Fahrenheit, convert
         // the values here.
-        String suffix = "\u00B0";
         if (!isMetric(context)) {
             temperature = (temperature * 1.8) + 32;
         }

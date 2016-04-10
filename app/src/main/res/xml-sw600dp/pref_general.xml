@@ -33,11 +33,4 @@
         android:summaryOn="@string/pref_enable_notifications_true"
         android:title="@string/pref_enable_notifications_label"/>
 
-    <ListPreference
-        android:defaultValue="0"
-        android:entries="@array/pref_theme_options"
-        android:entryValues="@array/pref_theme_values"
-        android:key="@string/pref_theme_key"
-        android:title="@string/pref_theme_label" />
-
 </PreferenceScreen>

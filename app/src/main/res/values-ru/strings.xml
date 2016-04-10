@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">TWeather</string>
-    <string name="action_credist">О приложении</string>
+    <string name="action_credits">О приложении</string>
     <string name="action_map">На карте</string>
     <string name="action_settings">Настройки</string>
     <string name="action_share">Поделиться</string>
-    <string name="attribution_text"></string>
     <string name="condition_2xx">Гроза</string>
     <string name="condition_3xx">Изморось</string>
     <string name="condition_500">Легкий дождь</string>
@@ -100,6 +99,17 @@
     <string name="format_pressure"><xliff:g id="pressure">%1.0f</xliff:g> гПа</string>
     <string name="format_wind_kmh"><xliff:g id="speed">%1$1.0f</xliff:g> км/ч <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="format_wind_mph"><xliff:g id="speed">%1$1.0f</xliff:g> миль/ч <xliff:g id="direction">%2$s</xliff:g></string>
-    <string name="pref_location_status_key" translatable="false"></string>
     <string name="pref_art_pack_label">Наборы иконок</string>
+    <string name="pref_theme_label">Тема</string>
+    <string name="toast_restart">Пожалуйста, перезапустите приложение</string>
+    <string name="pref_theme_label_red">Красный</string>
+    <string name="pref_theme_label_purple">Фиолетовый</string>
+    <string name="pref_theme_label_pink">Розовый</string>
+    <string name="pref_theme_label_orange">Оранжевый</string>
+    <string name="pref_theme_label_lime">Лайм</string>
+    <string name="pref_theme_label_indigo">Индиго</string>
+    <string name="pref_theme_label_grey">Серый</string>
+    <string name="pref_theme_label_green">Зелёный</string>
+    <string name="pref_theme_label_cyan">Сине-зелёный</string>
+    <string name="pref_theme_label_blue">Синий</string>
 </resources>

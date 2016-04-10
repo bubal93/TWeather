@@ -11,8 +11,11 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.support.design.widget.Snackbar;
 import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlacePicker;
@@ -31,8 +34,18 @@ public class SettingsActivity extends PreferenceActivity
     protected final static int PLACE_PICKER_REQUEST = 9090;
     private ImageView mAttribution;
 
+    private boolean isTablet;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        isTablet = getResources().getBoolean(R.bool.isTablet);
+
+        if (!isTablet) {
+            // Set application theme
+            Utility.onActivityCreateSetTheme(this);
+        }
+
         super.onCreate(savedInstanceState);
         // Add 'general' preferences, defined in the XML file
         addPreferencesFromResource(R.xml.pref_general);
@@ -42,6 +55,9 @@ public class SettingsActivity extends PreferenceActivity
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_units_key)));
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_art_pack_key)));
+        if (!isTablet) {
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_theme_key)));
+        }
 
         // If we are using a PlacePicker location, we need to show attributions.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
@@ -135,6 +151,8 @@ public class SettingsActivity extends PreferenceActivity
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 
+        String toastRestart = getResources().getString(R.string.toast_restart);
+
         if (key.equals(getString(R.string.pref_location_key))) {
             // we've changed the location
             // Wipe out any potential PlacePicker latlng values so that we can use this text entry.
@@ -161,6 +179,13 @@ public class SettingsActivity extends PreferenceActivity
         } else if (key.equals(getString(R.string.pref_art_pack_key))) {
             // art pack have changed. update lists of weather entries accordingly
             getContentResolver().notifyChange(WeatherContract.WeatherEntry.CONTENT_URI, null);
+        } else if (key.equals(getString(R.string.pref_theme_key)) && !isTablet) {
+            // Application needs to restart in order to apply theme changes
+            Toast toast = Toast.makeText(this, toastRestart, Toast.LENGTH_SHORT);
+            // Centers the toast message
+            TextView v = (TextView) toast.getView().findViewById(android.R.id.message);
+            if (v != null) v.setGravity(Gravity.CENTER);
+            toast.show();
         }
     }
 

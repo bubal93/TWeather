@@ -60,7 +60,7 @@
     <string name="action_share">Podílet se </string>
     <string name="action_settings">Nastavení</string>
     <string name="action_map">Umístění na mapě</string>
-    <string name="action_credist">O aplikaci</string>
+    <string name="action_credits">O aplikaci</string>
     <string name="a11y_wind">Rychlost a směr větru: <xliff:g id="wind">%1$s</xliff:g></string>
     <string name="a11y_pressure">Atmosférický tlak: <xliff:g id="pressure">%1$s</xliff:g></string>
     <string name="a11y_low_temp">V noci: <xliff:g id="low">%1$s</xliff:g></string>
@@ -100,4 +100,16 @@
     <string name="today">dnes</string>
     <string name="tomorrow">zítra</string>
     <string name="wind">Vítr</string>
+    <string name="pref_theme_label">Téma</string>
+    <string name="pref_theme_label_blue">Modrý</string>
+    <string name="pref_theme_label_cyan">Modrozelený</string>
+    <string name="pref_theme_label_green">Zelený</string>
+    <string name="pref_theme_label_grey">Šedý</string>
+    <string name="pref_theme_label_indigo">Indigový </string>
+    <string name="pref_theme_label_lime">Žlutozelený  </string>
+    <string name="pref_theme_label_orange">Oranžový</string>
+    <string name="pref_theme_label_pink">Růžový</string>
+    <string name="pref_theme_label_purple">Fialový </string>
+    <string name="pref_theme_label_red">Červený</string>
+    <string name="toast_restart">Prosím, restartujte aplikace</string>
 </resources>

@@ -36,10 +36,22 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
     private boolean mTwoPane;
     private String mLocation;
 
+    private boolean isTablet;
+
+    SharedPreferences sharedPreferences;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mLocation = Utility.getPreferredLocation(this);
+
+        isTablet = getResources().getBoolean(R.bool.isTablet);
+
+        if (!isTablet) {
+            // Set application theme
+            Utility.onActivityCreateSetTheme(this);
+        }
+
         setContentView(LAYOUT);
         Uri contentUri = getIntent() != null ? getIntent().getData() : null;
 
@@ -93,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
             // Because this is the initial creation of the app, we'll want to be certain we have
             // a token. If we do not, then we will start the IntentService that will register this
             // application with GCM.
-            SharedPreferences sharedPreferences =
+            sharedPreferences =
                     PreferenceManager.getDefaultSharedPreferences(this);
             boolean sentToken = sharedPreferences.getBoolean(SENT_TOKEN_TO_SERVER, false);
             if (!sentToken) {
@@ -139,7 +151,12 @@ public class MainActivity extends AppCompatActivity implements ForecastFragment.
     @Override
     protected void onResume() {
 
+        // Change application theme
+        String themeValue = sharedPreferences.getString("theme", "0");
+        Utility.changeToTheme(Integer.parseInt(themeValue));
+
         super.onResume();
+
         String location = Utility.getPreferredLocation(this);
 
         // Update the location in second pane using the fragment manager

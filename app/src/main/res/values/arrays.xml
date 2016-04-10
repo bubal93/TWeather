@@ -29,4 +29,31 @@
         <item>@string/pref_art_pack_tweather</item>
     </string-array>
 
+    <string-array name="pref_theme_options">
+        <item>@string/pref_theme_label_orange</item>
+        <item>@string/pref_theme_label_red</item>
+        <item>@string/pref_theme_label_blue</item>
+        <item>@string/pref_theme_label_indigo</item>
+        <item>@string/pref_theme_label_cyan</item>
+        <item>@string/pref_theme_label_lime</item>
+        <item>@string/pref_theme_label_green</item>
+        <item>@string/pref_theme_label_pink</item>
+        <item>@string/pref_theme_label_purple</item>
+        <item>@string/pref_theme_label_grey</item>
+    </string-array>
+
+
+    <string-array name="pref_theme_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
 </resources>

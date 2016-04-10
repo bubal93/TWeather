@@ -8,6 +8,77 @@
         <item name="toolbarStyle">@style/Toolbar</item>
     </style>
 
+    <!-- Custom application themes. -->
+    <style name="Orange" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Red" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
+        <item name="colorAccent">@color/colorPrimaryRed</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Blue" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorPrimaryBlue</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Indigo" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/colorPrimaryIndigo</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Cyan" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryCyan</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkCyan</item>
+        <item name="colorAccent">@color/colorPrimaryCyan</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Lime" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLime</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLime</item>
+        <item name="colorAccent">@color/colorPrimaryLime</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Green" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGreen</item>
+        <item name="colorAccent">@color/colorPrimaryGreen</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Pink" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryPink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
+        <item name="colorAccent">@color/colorPrimaryPink</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Purple" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorPrimaryPurple</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
+    <style name="Grey" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryGrey</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGrey</item>
+        <item name="colorAccent">@color/colorPrimaryGrey</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+    </style>
+
 
     <!-- Settings activity theme. -->
     <style name="SettingsTheme" parent="AppTheme" />
