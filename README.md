@@ -56,7 +56,7 @@ A weather forecast app.
 
 - Design made with Google Material Design Guidelines (Toolbar, CardView, animations, "surface feeling", etc.)
 
-- Implemented Google Cloud Messagging system. In theory, it supposed to serve as instant notification service for emergency weather. But, since i don`t have a server, it`s only a test feature.
+- Implemented Google Cloud Messagging system. In theory, it supposed to serve as instant notification service for emergency weather. But, since i don't have a server, it's only a test feature.
 
 - Map Places API and Google PlacePicker are used for selecting location (but it`s also possible to select location via name or ZIP code).
 
