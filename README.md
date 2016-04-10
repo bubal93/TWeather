@@ -29,6 +29,8 @@ A weather forecast app.
 
 - Fully optimized for tablets.
 
+- Avaliable in English, Czech and Russian languages.
+
 <b>Realisation:</b>
 - Weather acquired from [OpenWeatherMap.](http://openweathermap.org/) Throught their API I`m sending a query and receiving a JSON which parsed for weather data.
 
