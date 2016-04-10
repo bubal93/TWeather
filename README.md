@@ -71,16 +71,18 @@ A weather forecast app.
 
 - Phone:
 
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280611/1fef1cc2-fb34-11e5-837a-31f63aadba09.png" width="288" height="432" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280613/25383b14-fb34-11e5-9cd8-06d94dd9fcc0.png" width="288" height="432" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280618/2ca4550e-fb34-11e5-8864-af539b9a76e4.png" width="288" height="432" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280956/71eba7aa-fb36-11e5-8d8e-f4a2485393f1.png" width="420" height="232" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280958/742f7bf4-fb36-11e5-91db-25d885fdf9a5.png" width="420" height="232" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413333/2e9be380-ff77-11e5-8afd-bde42c0a18b7.png" width="288" height="406" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413330/2e981a98-ff77-11e5-8d62-f7edd5819d71.png" width="288" height="406" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413329/2e97502c-ff77-11e5-90c3-7384cd1cbe2c.png" width="288" height="406" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413331/2e9a66d6-ff77-11e5-9e92-f4b94cf13cd7.png" width="288" height="406" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413332/2e9b1982-ff77-11e5-9bd4-89eaf45d80e9.png" width="288" height="406" />
 
 - Tablet:
 
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280635/3f1d330e-fb34-11e5-9b8e-600ed6d3d416.png" width="360" height="423" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280631/3c891cf2-fb34-11e5-93e9-cfe845a149b3.png" width="480" height="311" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413338/3ad007e4-ff77-11e5-8065-5ffdc4aa1437.png" width="363" height="532" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413337/3acea93a-ff77-11e5-91e1-e10166cbca3a.png" width="363" height="532" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413339/3ad076a2-ff77-11e5-8741-015101066277.png" width="363" height="246" />
+
 
 - Different icon set and Muzei integration:
 
