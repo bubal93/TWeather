@@ -11,7 +11,7 @@ A weather forecast app.
 
 - Customizable Weather widgets with detail forecast or for single day only.
 
-- Select between several icon themes.
+- Select between several icon and color themes.
 
 - Get a notification as soon as weather changes.
 
@@ -81,11 +81,4 @@ A weather forecast app.
 
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413338/3ad007e4-ff77-11e5-8065-5ffdc4aa1437.png" width="363" height="532" />
 <img src="https://cloud.githubusercontent.com/assets/17985872/14413337/3acea93a-ff77-11e5-91e1-e10166cbca3a.png" width="363" height="532" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14413339/3ad076a2-ff77-11e5-8741-015101066277.png" width="363" height="246" />
-
-
-- Different icon set and Muzei integration:
-
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280618/2ca4550e-fb34-11e5-8864-af539b9a76e4.png" width="288" height="432" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280627/374e0f2c-fb34-11e5-846b-6499eaa43738.png" width="288" height="432" />
-<img src="https://cloud.githubusercontent.com/assets/17985872/14280628/394c1f26-fb34-11e5-8245-908cda258d57.png" width="288" height="432" />
+<img src="https://cloud.githubusercontent.com/assets/17985872/14413339/3ad076a2-ff77-11e5-8741-015101066277.png" width="726" height="493" />
